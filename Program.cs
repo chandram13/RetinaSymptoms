@@ -8,7 +8,7 @@ namespace retinaIssues{
         }
         public static void retinalTear(string[] args){
             atRisk = ["Being nearsighted","Having glaucoma","Having a severe eye injury","Condition being present in the genetics","Thin spots present in the retina"];
-            symptoms = ["Sudden blurry vision","Increased floaters","Sudden decreases in vision","Signs of headaches"]
+            symptoms = ["Sudden blurry vision","Increased floaters","Sudden decreases in vision","Signs of headaches"];
             occurances = ["Seeing flashing lights","Seeing too many floaters","Shadow apperance in vision called side vision.","Appearance of a grey curtain"];
             treatments = ["Laser surgery (photocoagulation)","Freezing treatment (cryopexy)","Consult a physician to consult this condition."];
             associatedConditions = ["Diabetes","Sickle cell disease","scar tissue","nearsightedness","former eye trauma","history of condition","retinal degeneration","inflammatory disorders","autoimmune diseases","certain cancers"];
@@ -19,13 +19,13 @@ namespace retinaIssues{
             Console.WriteLine("Because of this symptom" + treatments[2] + ".");
             if symptoms[1]:
             Console.WriteLine("Because of this symptom, you may possibly have the following:" + associatedConditions[0] + "," + associatedConditions[3] + ", and " + associatedConditions[6] + ".");
-            Console.WriteLine("With this condition, you should" + treatments[2])
+            Console.WriteLine("With this condition, you should" + treatments[2]);
             if symptoms[2]:
             Console.WriteLine("Because of this symptom, you may possibly have the following:" + associatedConditions[3] + "," + associatedConditions[4] + ", and" + associatedConditions[7 + "."]);
             if symptoms[3]:
             Console.WriteLine("Because of this symptom, you may have" + associatedConditions[5] + ".");
-            Console.WriteLine("With this condition, you should" + treatments[2 + "."])
-            else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
+            Console.WriteLine("With this condition, you should" + treatments[2 + "."]);
+            else Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
 
         }
         public static void retinalDetachment(string[] args){
@@ -43,7 +43,7 @@ namespace retinaIssues{
             Console.WriteLine("Because of this symptom" + treatments[2] + "is advised, so this minor symptom can stop happening.");
             if symptoms[3]:
             Console.WriteLine("Since this is a severe condition, the best reccomendation is" + treatments[5] + ".");
-            else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
+            else Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
         }
         public static void diabeticRetinopathy(string[] args){
             atRisk = ["abnormal blood vessels","optic swelling","optic scarring", "optic nerve damage"];
@@ -62,7 +62,7 @@ namespace retinaIssues{
             Console.WriteLine("For this symptom, the best reccomendation is " + treatments[2] + ".");
             if symptoms[4]:
             Console.WriteLine("Because this can be a varying condition (ranging of intensity), the best reccomendations are either" + treaments[1] "or" + treatments[1] + ".");
-            else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
+            else Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
         }
         public static void epiretinalMembrane(string[] args){
             symptoms = ["Decreased vision or loss of central vision.","Distorted or blurred vision.","Double vision.","Wavy vision.","Being nearsighted."];
@@ -80,7 +80,7 @@ namespace retinaIssues{
             Console.WriteLine(treatments[2]+ "Then, get :" + treatments[1] + ".");
             if symptoms[4]:
             Console.WriteLine(treatments[2]);
-            else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
+            else Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
         }
         public static void macularHole(string[] args){
             symptoms = ["Over 60 years old","Very nearsighted","Have had eye surgery or an eye injury"];
@@ -94,7 +94,7 @@ namespace retinaIssues{
             Console.WriteLine("Because of this underlying condition, it will be necessary to get" + treatments[0] + ".");
             if symptoms[2]:
             Console.WriteLine(treatments[1] + "If the consulation gets diagonosed, then get" + treatments[0] + ".");
-            else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
+            else Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
         }
         public static void macularDegeneration(string[] args){
             Console.WriteLine("There are two forms of macular degeneration including a dry and wet version. Wet macular degeneration progresses more quickly than dry macular degeneration.");
@@ -126,7 +126,7 @@ namespace retinaIssues{
             Console.WriteLine(wetTreatments[3]);
             if symptoms[WetMD[3]]:
             Console.WriteLine(wetTreatments[0]);
-            else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
+            else Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
         }
         public static void retinitisPigmentosa(string[] args){
             symptoms = ["Loss of night vision (beginning in childhood)","Loss of side vision, eventually causing the individual to have central vision."];
@@ -138,7 +138,7 @@ namespace retinaIssues{
             Console.WriteLine(treatments[0]);
             if symptoms[1]:
             Console.WriteLine(treatments[0]);
-            else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
+            else Console.WriteLine("You either do not have this condition or your symptoms are not listed.");
         }
     }
 }
