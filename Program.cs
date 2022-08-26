@@ -1,12 +1,12 @@
 
 namespace retinaIssues{
     class humanRetina{
-        public static void generalSymptoms(string[]args){
+        public static void generalSymptoms(string[] args){
             majorSymptoms = ["Seeking specks or cobwebs","Blurred vision","Defects in side vision","Lost vision either temporarily or completely"]
             Console.WriteLine(majorSymptoms)
 
         }
-        public static void retinalTear(string[]args){
+        public static void retinalTear(string[] args){
             atRisk = ["Being nearsighted","Having glaucoma","Having a severe eye injury","Condition being present in the genetics","Thin spots present in the retina"]
             symptoms = ["Sudden blurry vision","Increased floaters","Sudden decreases in vision","Signs of headaches"]
             occurances = ["Seeing flashing lights","Seeing too many floaters","Shadow apperance in vision called side vision.","Appearance of a grey curtain"]
@@ -28,7 +28,7 @@ namespace retinaIssues{
             else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.")
 
         }
-        public static void retinalDetachment(string[]args){
+        public static void retinalDetachment(string[] args){
             atRisk = ["family history of retinal detachment","previous serious eye injury","past eye surgery","recieved diagnosis of certain eye diseases","are extremely nearsighted","Older than the age of 50"]
             symptoms = ["blurred vision","partial vision loss","sudden flashes of light that appear in one or both eyes","suddenly seeing many floaters"]
             occurances = ["rhegmatogenous","tractional","exudative"]
@@ -45,7 +45,7 @@ namespace retinaIssues{
             Console.WriteLine("Since this is a severe condition, the best reccomendation is" + treatments[5] + ".")
             else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.")
         }
-        public static void diabeticRetinopathy(string[]args){
+        public static void diabeticRetinopathy(string[] args){
             atRisk = ["abnormal blood vessels","optic swelling","optic scarring", "optic nerve damage"]
             symptoms = ["seeking floaters or dark spots","difficulty seeing at night","blurred vision","difficulty distinguishing colors","vision loss"]
             occurances = ["High levels of blood sugar","High blood pressure"]
@@ -64,7 +64,7 @@ namespace retinaIssues{
             Console.WriteLine("Because this can be a varying condition (ranging of intensity), the best reccomendations are either" + treaments[1] "or" + treatments[1] + "."
             else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.")
         }
-        public static void epiretinalMembrane(string[]args){
+        public static void epiretinalMembrane(string[] args){
             symptoms = ["Decreased vision or loss of central vision.","Distorted or blurred vision.","Double vision.","Wavy vision.","Being nearsighted."]
             occurances = ["Often over the age of 50","Posterior vitreous detachment","Retinal tear or detachment","Eye injuries or surgeries","Retinal vascular diseases","Existing eye retinal membrane issue"]
             treatments = ["Vitrectomy","EMR surgery","Consult a physician to consult this condition."]
@@ -82,7 +82,7 @@ namespace retinaIssues{
             Console.WriteLine(treatments[2])
             else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.")
         }
-        public static void macularHole(string[]args){
+        public static void macularHole(string[] args){
             symptoms = ["Over 60 years old","Very nearsighted","Have had eye surgery or an eye injury"]
             occurances = ["Usually when there's an injury to the eye","A side effect from eye disease causing swelling to the macula"]
             treatments = ["Vitrectomy","Consult a physician to consult this condition."]
@@ -96,7 +96,7 @@ namespace retinaIssues{
             Console.WriteLine(treatments[1] + "If the consulation gets diagonosed, then get" + treatments[0] + ".")
             else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.")
         }
-        public static void macularDegeneration(string[]args){
+        public static void macularDegeneration(string[] args){
             Console.WriteLine("There are two forms of macular degeneration including a dry and wet version. Wet macular degeneration progresses more quickly than dry macular degeneration.")
             symptoms = {DryMD: "A reduction in central vision","A distortion of straight lines in your field of vision","The need for brighter lighting","Difficulty adapting to low lights","Blurriness","Trouble recognizing faces","Retinal damage",WetMD: "A blurry spot in your field of vision","A dark spot in the center of your vision due to blood vessels bleeding or leaking fluid","Hazy vision","Rapidly worsening symptoms"}
             occurances = ["Having a family history of macular degeneration","Being over 55 years old","Smoking","Having overweight or obesity","Having cardiovascular disease","Having high cholesterol"]
@@ -128,7 +128,7 @@ namespace retinaIssues{
             Console.WriteLine(wetTreatments[0])
             else: Console.WriteLine("You either do not have this condition or your symptoms are not listed.")
         }
-        public static void retinitisPigmentosa(string[]args){
+        public static void retinitisPigmentosa(string[] args){
             symptoms = ["Loss of night vision (beginning in childhood)","Loss of side vision, eventually causing the individual to have central vision."]
             occurances = ["Changes in genes that control retinal cells.","Generally an inherited disorder."]
             treatments = ["Only low vision aids and rehabilitation programs to help individuals reciporate through this condition."]
